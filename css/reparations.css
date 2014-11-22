@@ -1,3 +1,36 @@
-* {
-font-family: impact;
+* 
+{
+font-family: "Trebuchet MS";
+font-size: x-large;
+}
+h1
+{
+font-size: xx-large;
+text-decoration: overline;
+text-align: center;
+}
+.formulaire
+{
+text-decoration: overline;
+box-shadow: 6px 6px 6px black;
+}
+.tableau
+{
+text-align: center;
+margin-left:auto;
+margin-right:auto;
+border: 2px blue dashed;
+}
+body
+{
+    background-image: url("../img/outils.png");
+	background-position: top right;
+	background-repeat: no-repeat;
+	opacity: 1.5;
+}
+.photo
+{
+margin: 50px;
+margin-bottom: 3px;
+margin-top: 3px;
 }
