@@ -21,7 +21,7 @@ margin-left:auto;
 margin-right:auto;
 border: 2px blue dashed;
 }
-body
+#back
 {
     background-image: url("../img/outils.png");
 	background-position: top right;
