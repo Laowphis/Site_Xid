@@ -1,0 +1,25 @@
+.titre_p{
+text-align : center;
+color : red;
+text-decoration :  underline;
+}
+.stitle_p{
+text-indent : 25px;
+color : lime;
+text-decoration : underline;
+}
+.sstitle_p{
+color : purple;
+text-decoration :  underline;
+}
+.texte_p{
+color : blue;
+}
+.site_p{
+text-decoration : blink;
+}
+.liste_p{
+color : SlateBlue;
+}
+.test_p{
+background-color : 
