@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Test</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <script src="js/csi.js"></script>
+  </head>
+  <body>
+    
+    <div id="wrapper">
+      <div id="sidebar-wrapper">
+   
+    <!-- liens dans le menu -->
+        <ul class="nav sidebar-nav" role="tablist">
+          <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Index</a></li>
+          <li role="presentation"><a href="#reparation" aria-controls="reparation" role="tab" data-toggle="tab">Réparation</a></li>
+          <li role="presentation"><a href="#projets" aria-controls="projets" role="tab" data-toggle="tab">Projets</a></li>
+          <li role="presentation"><a href="#jeux" aria-controls="jeux" role="tab" data-toggle="tab">Jeux</a></li>
+          <li role="presentation"><a href="#membres" aria-controls="membres" role="tab" data-toggle="tab">Membres</a></li>
+          <li role="presentation"><a href="#contact" aria-controls="contact" role="tab" data-toggle="tab">Contact</a></li>
+        </ul>
+      </div>
+
+    <!-- contenu affiché -->
+      <div id="page-content-wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="home">
+                  <div data-include="index.html"></div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="reparation">
+                  <div data-include="reparations.html"></div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="projets">
+                  <div data-include="projets.html"></div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="jeux">
+                  <div data-include="jeux.html"></div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="membres">
+                  <div data-include="membres.html"></div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="contact">
+                  <div data-include="contact.html"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
