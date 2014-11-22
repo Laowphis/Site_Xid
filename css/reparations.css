@@ -6,13 +6,7 @@ font-size: x-large;
 h1
 {
 font-size: xx-large;
-text-decoration: overline;
 text-align: center;
-}
-.formulaire
-{
-text-decoration: overline;
-box-shadow: 6px 6px 6px black;
 }
 .tableau
 {
