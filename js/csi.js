@@ -10,6 +10,7 @@ function fragment(el, url) {
 var localTest = /^(?:file):/,
 xmlhttp = new XMLHttpRequest(),
 status = 0;
+console.log('import '+url);
 xmlhttp.onreadystatechange = function() {
 /* if we are on a local protocol, and we have response text, we'll assume
 * things were sucessful */
